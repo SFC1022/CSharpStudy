@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uAC1C\uBC1C\uC6A9\\Documents\\GitHub\\CSharpStudy\\CSharpStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{778C2EF4-3FD8-4B1E-80FB-BFEE7CA9F388}|..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC.csproj|c:\\users\\\uAC1C\uBC1C\uC6A9\\documents\\github\\csharpstudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778C2EF4-3FD8-4B1E-80FB-BFEE7CA9F388}|..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC.csproj|c:\\users\\\uAC1C\uBC1C\uC6A9\\documents\\github\\csharpstudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uD074\uB798\uC2A4.cs",
+              "DocumentMoniker": "C:\\Users\\\uAC1C\uBC1C\uC6A9\\Documents\\GitHub\\CSharpStudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4.cs",
+              "RelativeDocumentMoniker": "..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4.cs",
+              "ToolTip": "C:\\Users\\\uAC1C\uBC1C\uC6A9\\Documents\\GitHub\\CSharpStudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4.cs",
+              "RelativeToolTip": "..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\\uD074\uB798\uC2A4.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAADwv6cAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:49:18.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\uAC1C\uBC1C\uC6A9\\Documents\\GitHub\\CSharpStudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\Program.cs",
+              "RelativeDocumentMoniker": "..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\Program.cs",
+              "ToolTip": "C:\\Users\\\uAC1C\uBC1C\uC6A9\\Documents\\GitHub\\CSharpStudy\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\Program.cs*",
+              "RelativeToolTip": "..\\\uD074\uB798\uC2A4\uC640 \uBA54\uC18C\uB4DC\\Program.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswF0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:49:18.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

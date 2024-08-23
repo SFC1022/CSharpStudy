@@ -9,9 +9,8 @@ namespace 클래스와_메소드
             Console.WriteLine(" ");
             Console.WriteLine("1. 공격한다.");
             Console.WriteLine("2. 휴식한다.");
-            Console.WriteLine("3. 마법을 사용한다");
-            Console.WriteLine("4. 도발한다.");
-            Console.Write("플레이어 행동을 선택해주세요 : ");
+            Console.WriteLine("3. Q날리기");
+            Console.Write("말파이트가 할 행동을 선택해주세요 : ");
             int userInput = int.Parse(Console.ReadLine());
 
             if (userInput == 1)
@@ -27,16 +26,12 @@ namespace 클래스와_메소드
                 player.Rest();
                 
             }
+
             else if (userInput == 3)
             {
                 slime.Attack(player);
-                player.Magic();
-                
-            }
-            else if (userInput == 4)
-            {
-                slime.Attack(player);
-                player.dobal(slime);
+                player.Q(slime);
+
             }
         }
 
@@ -53,9 +48,9 @@ namespace 클래스와_메소드
              */
 
             메이플스토리.Slime slime = new 메이플스토리.Slime();
-            slime.Name = "슬라임";
-            slime.HP = 50;
-            slime.AttackPower = 7;
+            slime.Name = "모데카이저";
+            slime.HP = 300;
+            slime.AttackPower = 15;
             //slime.MoveSpeed = 2.2f;
             slime.Show();
 
@@ -69,9 +64,9 @@ namespace 클래스와_메소드
             */
 
             메이플스토리.player player = new 메이플스토리.player();
-            player.Name = "플레이어1";
-            player.HP = 33;
-            player.AttackPower = 3;
+            player.Name = "말파이트";
+            player.HP = 350;
+            player.AttackPower = 10;
             //player.MoveSpeed = 3.2f;
             player.Show();
 
@@ -88,7 +83,7 @@ namespace 클래스와_메소드
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
-                    Console.WriteLine("플레이어가 사망했습니다. 게임에서 패배했습니다.");
+                    Console.WriteLine("말파이트가 사망했습니다. 라인전에서 패배했습니다.");
                     break;
                 }
 
@@ -96,10 +91,10 @@ namespace 클래스와_메소드
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
-                    Console.WriteLine("슬라임을 처치했습니다. 게임에서 승리했습니다.");
+                    Console.WriteLine("모데카이저를 처치했습니다. 라인전에서 승리했습니다.");
                     break;
                 }
             }
         }   
-    }
+    } 
 }

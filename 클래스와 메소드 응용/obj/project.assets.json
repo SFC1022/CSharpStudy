@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\CSharpStudy\\CSharpStudy.csproj",
-      "projectName": "CSharpStudy",
-      "projectPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\CSharpStudy\\CSharpStudy.csproj",
+      "projectUniqueName": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드 응용\\클래스와 메소드 응용.csproj",
+      "projectName": "클래스와 메소드 응용",
+      "projectPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드 응용\\클래스와 메소드 응용.csproj",
       "packagesPath": "C:\\Users\\개발용\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\CSharpStudy\\obj\\",
+      "outputPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드 응용\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\개발용\\AppData\\Roaming\\NuGet\\NuGet.Config",

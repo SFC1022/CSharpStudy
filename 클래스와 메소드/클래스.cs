@@ -77,7 +77,7 @@ namespace 메이플스토리
         {
             // 슬라임의 공격력으로 플레이어의 체력을 깍는다.
             Console.WriteLine(" ");
-            Console.WriteLine("슬라임이 플레이어를 공격했습니다!");
+            Console.WriteLine("모데카이저가 말파이트를 공격했습니다!");
             player.HP = player.HP - AttackPower;
         }
 
@@ -95,13 +95,11 @@ namespace 메이플스토리
         public int HP;
         public int AttackPower;
         public string Name;
-        public float MoveSpeed;
 
         public void Show()
         {
             Console.WriteLine($"{Name}의 체력 : {HP}");
             Console.WriteLine($"{Name}의 공격력 : {AttackPower}");
-            Console.WriteLine($"{Name}의 이동속도 : {MoveSpeed}");
 
         } 
     }
@@ -147,36 +145,27 @@ namespace 메이플스토리
         // 슬라임이 공격하는 메소드를 만들어보세요
         // 슬라임이 공격할 대상이 필요합니다
 
-        public void dobal(Slime slime)
-        {
-            slime.AttackPower = slime.AttackPower - 1;
-
-            Console.WriteLine("플레이어가 슬라임을 도발하여 슬라임의 공격력이 1 감소했습니다!");
-            Console.WriteLine($"------------------결과-------------------");
-        }
-
-        public void Magic()
-        {
-            AttackPower = AttackPower + 10;
-
-            Console.WriteLine("플레이어가 마법을 사용하여 공격력이 10 증가했습니다!");
-            Console.WriteLine($"------------------결과-------------------");
-        }
-
         public void Attack(Slime slime)
         {
             slime.HP = slime.HP - AttackPower;
 
-            Console.WriteLine($"플레이어가 {slime.Name}을 공격했습니다!");
+            Console.WriteLine($"말파이트가 {slime.Name}을 공격했습니다!");
             Console.WriteLine($"------------------결과-------------------");
         }
 
         public void Rest()
         {
-            HP = HP + 5;
-            Console.WriteLine("플레이어가 휴식했습니다!");
+            HP = HP + 50;
+            Console.WriteLine("말파이트가 물약을 먹었습니다!");
             Console.WriteLine($"------------------결과-------------------");
-            Console.WriteLine("플레이어 체력을 회복했습니다!");
+            Console.WriteLine("말파이트의 체력을 회복했습니다!");
+        }
+
+        public void Q(Slime slime)
+        {
+            slime.HP = slime.HP - 25;
+            Console.WriteLine("말파이트가 Q를 사용했습니다!");
+            Console.WriteLine($"------------------결과-------------------");
         }
 
         public void Show()
@@ -188,11 +177,3 @@ namespace 메이플스토리
     }
  }
 
-
-namespace 클래스와_메소드
-{
-    internal class 클래스
-    {
-
-    }
-}

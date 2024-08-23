@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStudy", "CSharpStudy.csproj", "{C55C5F2B-D9DF-4FF5-B588-A6F3E38CD02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "클래스와 메소드", "..\클래스와 메소드\클래스와 메소드.csproj", "{778C2EF4-3FD8-4B1E-80FB-BFEE7CA9F388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "클래스와 메소드", "..\클래스와 메소드\클래스와 메소드.csproj", "{778C2EF4-3FD8-4B1E-80FB-BFEE7CA9F388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
