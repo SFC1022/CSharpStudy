@@ -8,8 +8,8 @@ namespace 클래스와_메소드
         {
             Console.WriteLine(" ");
             Console.WriteLine("1. 공격한다.");
-            Console.WriteLine("2. 휴식한다.");
-            Console.WriteLine("3. Q날리기");
+            Console.WriteLine("2. 물약빤다.");
+            Console.WriteLine("3. Q날린다");
             Console.Write("말파이트가 할 행동을 선택해주세요 : ");
             int userInput = int.Parse(Console.ReadLine());
 

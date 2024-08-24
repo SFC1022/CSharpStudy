@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj": {}
   },
   "projects": {
-    "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj",
         "projectName": "클래스와 메소드",
-        "projectPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj",
-        "packagesPath": "C:\\Users\\개발용\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\개발용\\Documents\\GitHub\\CSharpStudy\\클래스와 메소드\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\CSharpStudy\\클래스와 메소드\\클래스와 메소드.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\CSharpStudy\\클래스와 메소드\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\개발용\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
